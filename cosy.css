@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color:rgb(204, 159, 127);
+    background-color: black;
+    opacity:0.9;
+}
+.cozy{
+    height: 69px;
+    width: 1200px;
+    
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    margin-left: 10px;
+    height: 50px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.navigacija li{
+    display: inline-flex;
+    list-style:none;
+    padding-right: 25px;
+    text-decoration: underline;
+    
+}
+
+.navigacija a{
+    color:coral;
+}
+.navigacija a:hover{
+    color: crimson;;
+}
+
+.mission{
+    background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+}
+
+.tekst1{
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+    top: 300px;
+}
+.meni{
+    width: 1200px;
+    height: auto;
+   
+}
+.tekst2{
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    padding: 5px;
+}
+.vel{
+    max-width: 1000px;
+    margin: auto;
+   
+}
+.red{
+    display: inline-flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+}
+
+.pozadina{
+    background-color:rgb(179, 84, 84);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}
+.ikona{
+    margin-top: 50px;
+    position: relative;
+    left: 0px;
+    right: 50px;
+   
+}
+
+.ikona img{
+    height: 200px;
+    width: 300px;
+   
+}
+.ikona figcaption{
+    font-size: 20px;
+    text-align:center;
+    font-weight:bold;
+    padding: 5px;
+}
+
+
+.lokacije{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 700px;
+    width: 1200px;
+    margin-top: 10px;
+    
+    display:flex;
+    flex-flow: row-nowrap;
+    justify-content:space-around;
+    align-content:center;
+}
+.txloc{
+    text-align: center;
+    position: relative;
+    top:100px;
+    left: 510px;
+}
+.txloc h2{
+    color: blanchedalmond;
+}
+
+.address{
+    height: 300px;
+    width: 300px;
+    background-color: darkslategray;
+    position: relative;
+    top:200px;
+    right:90px;
+}
+
+h3{
+    color:rgb(216, 197, 197);
+    text-align: center;
+    padding:5px;
+}
+h4{
+    color:rgb(216, 197, 197);
+    text-align: center;
+    padding:10px;
+    
+}
